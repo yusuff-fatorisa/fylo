@@ -134,7 +134,6 @@ Intro Styling
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: ;
 	gap: 20px;
 }
 
@@ -163,6 +162,9 @@ Intro Styling
 .intro .texts form > input {
 	width: 62.5%;
 	height: 50px;
+	font-size: 14px;
+	padding-inline-start: 20px;
+	opacity: 0.5;
 }
 
 .texts form > button {
@@ -220,13 +222,13 @@ Hot-It-Works Styling
 	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
+	color: var(--Light-Gray);
 }
 
 .how-it-works .texts .articles > a {
 	width: 37.5%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	gap: 10px;
 	text-decoration: none;
 	color: var(--Moderate-Cyan);
@@ -272,7 +274,7 @@ Hot-It-Works Styling
 
 .review .bio img {
 	width: 50px;
-	height: 50px1;
+	height: 50px;
 	border-radius: 50%;
 }
 
@@ -353,6 +355,8 @@ Bottom Styling
 	border: 1px solid maroon;
 	outline: none;
 	border-radius: 5px;
+	font-size: 18px;
+	padding-inline-start: 20px;
 }
 
 .access form > button {
@@ -390,6 +394,7 @@ Footer Styling
 .footer > img {
 	width: 120px;
 	height: 50px;
+	fill: red;
 }
 
 .footer .socials {
@@ -467,3 +472,1424 @@ Footer Styling
 	border-color: var(--Bright-Blue);
 }
 
+
+/*
+Media Query
+*/
+
+@media screen and (max-width: 1280px) {
+
+	.intro .texts > h1 {
+		font-size: 34px;
+	}
+
+	.intro .texts > p {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 1220px) {
+	.how-it-works .texts .review {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 1160px) {
+	.intro .texts > h1 {
+		font-size: 29px;
+	}
+
+	.intro .texts > p {
+		font-size: 13px;
+	}
+
+	.how-it-works .texts .articles > a {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 1125px) {
+
+	.how-it-works .texts > h2 {
+		font-size: 26px;
+	}
+
+	.how-it-works .texts .articles > p {
+		font-size: 13px;
+	}
+
+	.how-it-works .texts .review {
+		width: 100%;
+	}
+
+	.access .texts {
+		flex-basis: 55%;
+	}
+}
+
+@media screen and (max-width: 1011px) {
+	.intro .texts > h1 {
+		font-size: 26px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 24px;
+	}
+
+	.how-it-works .texts .articles > p {
+		font-size: 10px;
+	}
+	.how-it-works .texts .review > p {
+		font-size: 16px;
+	}
+
+	.bio .details h3 {
+		font-size: 16px;
+	}
+
+	.bio .details p {
+		font-size: 12px;
+	}
+
+	.access .texts > p {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 970px) {
+
+	.intro .texts > h1 {
+		font-size: 24px;
+	}
+	.intro .texts > p {
+		font-size: 11px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 21.5px;
+	}
+
+	.how-it-works .texts .articles > a {
+		width: 60%;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 14px;
+	}
+
+	.access .texts > h2 {
+		font-size: 37.5px;
+	}
+
+	.access .texts > p {
+		font-size: 14.5px;
+	}
+
+	.bottom .footer {
+		padding-inline: 3rem;
+	}
+}
+
+@media screen and (max-width: 865px) {
+	.intro .texts > h1 {
+		font-size: 22px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 19.75px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 12px;
+	}
+
+	.access .texts > p {
+		font-size: 13px;
+	}
+
+	.socials > div:nth-of-type(1) > span {
+		font-size: 15px;
+	}
+
+	.socials > nav > ul a {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:  845px) {
+	.intro .texts > p {
+		font-size: 10px;
+	}
+
+	.access .texts > h2 {
+		font-size: 35.5px;
+	}
+
+	.access form > button {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 805px) {
+	.intro .texts > h1 {
+		font-size: 20px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 18px;
+	}
+
+	.how-it-works .texts .articles > p {
+		font-size: 9px;
+	}
+
+	.access .texts > h2 {
+		font-size: 34px;
+	}
+
+	.access .texts > p {
+		font-size: 11px;
+	}
+
+	.socials > div:nth-of-type(2) > a {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	.intro .texts > p {
+		font-size: 9px;
+	}
+
+	.how-it-works .texts .articles > a {
+		font-size: 14px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 10px;
+	}
+
+	.access .texts > h2 {
+		font-size: 32px;
+	}
+
+	.access .texts > p {
+		font-size: 10px;
+	}
+
+	.socials > div:nth-of-type(2) {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 747px) {
+	.intro .texts > h1 {
+		font-size: 19px;
+	}
+
+	.intro .texts > p {
+		font-size: 8.5px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 17px;
+	}
+
+	.how-it-works .texts .articles > p {
+		font-size: 8.5px;
+	}
+
+	.access .texts > h2 {
+		font-size: 30px;
+	}
+
+	.access .texts > p {
+		font-size: 9px;
+	}
+}
+
+/*
+Mobile Media Query
+*/
+
+@media screen and (max-width: 718px) {
+	.container {
+		max-width: 100%;
+	}
+
+	.intro {
+		flex-direction: column;
+	}
+
+	.intro .images {
+		order: -1;
+	}
+
+	.intro .texts {
+		width: 100%;
+    	align-items: center;
+	}
+
+	.intro .texts > h1 {
+		width: 100%;
+		text-align: center;
+		font-size: 45px;
+	}
+
+	.intro .texts > p > br {
+		content: "";
+	}
+
+	.intro .texts > p {
+		width: 100%;
+		text-align: center;
+		font-size: 29.5px;
+	}
+
+	.intro .texts form {
+		flex-direction: column;
+		gap: 20px;
+		width: 100%;
+	}
+
+	.intro .texts form > input {
+		width: 100%;
+		border-radius: 5px;
+		height: 60px;
+		font-size: 18px;
+	}
+
+	.texts form > button {
+		width: 100%;
+		font-size: 27.5px;
+		font-weight: 700;
+		height: 60px;
+	}
+
+	.how-it-works {
+		flex-direction: column;
+	}
+
+	.how-it-works .images {
+		order: -1;
+	}
+
+	.how-it-works .texts {
+		width: 100%;
+	}
+
+	.how-it-works .texts > h2 {
+		width: 100%;
+		text-align: center;
+		font-size: 32px;
+	}
+
+	.how-it-works .texts .articles {
+		align-items: center;
+	}
+
+	.how-it-works .texts .articles br {
+		content: "";
+	}
+
+	.how-it-works .texts .articles > p {
+		font-size: 26.5px;
+	}
+
+	.how-it-works .texts .articles > a {
+		justify-content: space-between;
+		width: 45%;
+		font-size: 22px;
+	}
+
+	.how-it-works .texts .articles > a > img {
+		width: 30px;
+	}
+
+	.how-it-works .texts .review {
+		width: 85%;
+		align-self: center;
+	}
+
+	.how-it-works .texts .review > img {
+		width: 20px;
+	}
+
+	.how-it-works .texts .review br {
+		content: "";
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 21px;
+	}
+
+	.bio .details h3 {
+		font-size: 18px;
+		letter-spacing: 1.25px;
+	}
+
+	.bottom .access {
+		flex-direction: column;
+	}
+
+	.access .texts {
+		width: 100%;
+	}
+
+	.access .texts > h2 {
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.access .texts > p > br {
+		content: "";
+	}
+
+	.access .texts > p {
+		text-align: center;
+		font-size: 32px;
+	}
+
+	.access form {
+		width: 80%;
+	}
+
+	.access form > input {
+		height: 60px;
+		font-size: 22px;
+		padding-inline-start: 15px;
+		background-color: white !important;
+	}
+
+	.access form > button {
+		width: 100%;
+		height: 60px;
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.footer > img {
+		width: 200px;
+		height: 100px;
+	}
+
+	.footer .socials {
+		flex-direction: column;
+		gap: 65px;
+	}
+
+	.socials > div:nth-of-type(1) > span {
+		font-size: 25px;
+	}
+
+	.socials > div:nth-of-type(1) > span > img {
+		width: 35px;
+	}
+
+	.socials > nav > ul a {
+		font-size: 25px;
+	}
+
+	.socials > div:nth-of-type(2) {
+		align-self: center;
+		width: 180px;
+	}
+
+	.socials > div:nth-of-type(2) > a {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 711px) {
+
+	.intro .texts > p {
+		font-size: 29px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 25.75px;
+	}
+
+	.how-it-works .texts .review {
+		width: 84.5%;
+	}
+}
+
+@media screen and (max-width: 696px) {
+	.intro .texts > h1 {
+		font-size: 40px;
+	}
+
+	.intro .texts > p {
+		font-size: 28px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 25.5px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 25.75px;
+	}
+
+	.how-it-works .texts .review {
+		width: 87%;
+	}
+}
+
+@media screen and (max-width: 687px) {
+
+	.intro .texts > p {
+		font-size: 25.95px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 24.25px;
+	}
+
+	.how-it-works .texts .review {
+		width: 87.5%;
+	}
+
+	.access .texts > p {
+		font-size: 30.5px;
+	}
+}
+
+@media screen and (max-width: 678px) {
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 23.99px;
+	}
+
+	.how-it-works .texts .review {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 660px) {
+
+	.intro .texts > h1 {
+		font-size: 38.5px;
+	}
+
+	.intro .texts > p {
+		font-size: 25.59px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 30px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 22.95px;
+	}
+
+	.how-it-works .texts .articles > a {
+		width: 50%;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 19.75px;
+	}
+
+	.access .texts > p {
+		font-size: 29.25px;
+	}
+}
+
+@media screen and (max-width: 647px) {
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 22.4px;
+	}
+}
+
+@media screen and (max-width: 638px) {
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 22.3px;
+	}
+	.access .texts > p {
+		font-size: 27.9px;
+	}
+}
+
+@media screen and (max-width: 630px) {
+
+	.intro .texts > p {
+		font-size: 24.5px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 21.85px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 18.5px;
+	}
+}
+
+@media screen and (max-width: 612px) {
+
+	.intro .texts > h1 {
+		font-size: 33.75px;
+	}
+
+	.intro .texts > p {
+		font-size: 23.5px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 27.25px;
+	}
+
+	.access .texts > p {
+		font-size: 26.75px;
+	}
+}
+
+@media screen and (max-width: 605px) {
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 20.65px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 20.85px;
+	}
+
+	.how-it-works .texts .articles > a {
+		width: 55.5%;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 18.25px;
+	}
+}
+
+@media screen and (max-width: 596px) {
+
+	.intro .texts > p {
+		font-size: 22px;
+	}
+
+	.access .texts > p {
+		font-size: 25.75px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 17.1px;
+	}
+}
+
+@media screen and (max-width: 585px) {
+
+	.header > img {
+		width: 125px;
+	}
+
+	.header > nav > ul {
+		gap: 20px;
+	}
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 20.4px;
+	}
+}
+
+@media screen and (max-width: 574px) {
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 20px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 19.55px;
+	}
+
+	.access .texts > p {
+		font-size: 24.75px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 16.14px;
+	}
+}
+
+@media screen and (max-width: 565px) {
+
+	.intro .texts > h1 {
+		font-size: 31.75px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 23.8px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 18.95px;
+	}
+}
+
+@media screen and (max-width: 559px) {
+
+	.intro .texts > p {
+		font-size: 20.25px;
+	}
+
+	.how-it-works .texts .articles > a {
+		font-size: 18px;
+	}
+
+	.access .texts > p {
+		font-size: 24.4px;
+	}
+}
+/* I changed the width from 548px to 549px */
+@media screen and (max-width: 549px) {
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 18.5px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 19px;
+	}
+
+	.how-it-works .texts .articles > a > img {
+		width: 20px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 15.1px;
+	}
+
+	.access .texts > p {
+		font-size: 23.23px;
+	}
+}
+
+@media screen and (max-width: 533px) {
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 18.25px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 18.75px;
+	}
+
+	.access .texts > h2 {
+		font-size: 34.75px;
+	}
+}
+
+/*I changed the width from 525px to 526px*/
+@media screen and (max-width: 526px) {
+	.intro .texts > h1 {
+		font-size: 30px;
+	}
+
+	.intro .texts > p {
+		font-size: 18.5px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 17.25px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 17.45px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 14.2px;
+	}
+
+	.access .texts > p {
+		font-size: 22.1px;
+	}
+}
+
+@media screen and (max-width: 511px) {
+
+	.intro .texts > h1 {
+		font-size: 27.25px;
+	}
+
+	.intro .texts form > input {
+		font-size: 14.5px;
+	}
+
+	.texts form > button {
+		font-size: 22.5px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 21.8px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 16.62px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 17.35px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 13.5px;
+	}
+
+	.access .texts > p {
+		font-size: 21.5px;
+	}
+
+	.access form > input {
+		font-size: 14.5px;
+	}
+
+	.access form > button {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 494px) {
+	.header > img {
+		width: 90px;
+	}
+
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 16.1px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 12.8px;
+	}
+
+	.access .texts > p {
+		font-size: 20.45px;
+	}
+}
+
+@media screen and (max-width: 489px) {
+
+	.intro .texts > p {
+		font-size: 16.95px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 15.7px;
+	}
+
+	.footer > img {
+		width: 150px;
+		height: 60px;
+	}
+
+	.socials > div:nth-of-type(1) > span > img {
+		width: 20px;
+	}
+
+	.socials > div:nth-of-type(1) > span {
+		font-size: 20px;
+	}
+
+	.socials > nav > ul a {
+		font-size: 20px;
+	}
+
+	.socials > div:nth-of-type(2) {
+		width: 150px;
+	}
+
+	.socials > div:nth-of-type(2) > a {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 477px) {
+
+	.intro .texts > h1 {
+		font-size: 24.5px;
+	}
+
+	.intro .texts > p {
+		font-size: 16.95px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 18px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 15.25px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 15.75px;
+	}
+
+	.how-it-works .texts .articles > a {
+		font-size: 15px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 12.05px;
+	}
+
+	.access .texts > h2 {
+		font-size: 30px;
+	}
+
+	.access .texts > p {
+		font-size: 19.6px;
+	}
+}
+
+@media screen and (max-width: 461px) {
+
+	.header > nav > ul {
+		gap: 12.5px;
+	}
+
+	.header > nav > ul a {
+		font-size: 12px;
+	}
+
+	.intro .texts > p {
+		font-size: 15.65px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 14.5px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 14.5px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 11.4px;
+	}
+
+	.access .texts > p {
+		font-size: 18.75px;
+	}
+}
+
+@media screen and (max-width: 447px) {
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 14.15px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 14.5px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 11px;
+	}
+
+	.access .texts > p {
+		font-size: 18px;
+	}
+}
+
+/* I changed the width from 434px to 435px */
+@media screen and (max-width: 435px) {
+
+	.intro .texts > h1 {
+		font-size: 22px;
+	}
+
+	.intro .texts > p {
+		font-size: 14.35px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 13.35px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 13.75px;
+	}
+
+	.how-it-works .texts .review {
+		width: 94.5%;
+	}
+
+	.access .texts > p {
+		font-size: 17.35px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+
+	.how-it-works .texts .articles > a {
+		font-size: 12.5px;
+	}
+
+	.how-it-works .texts .articles > a > img {
+		width: 15px;
+	}
+
+	.how-it-works .texts .review {
+		width: 99%;
+	}
+
+	.access .texts > h2 {
+		font-size: 27px;
+	}
+
+	.access .texts > p {
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 416px) {
+
+
+	.header > img {
+		width: 60px;
+	}
+
+	.header > nav > ul {
+		gap: 10px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 15px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 12.59px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 12.73px;
+	}
+
+	.access .texts > p {
+		font-size: 16.7px;
+	}
+}
+
+@media screen and (max-width: 406px) {
+	.intro .texts > p {
+		font-size: 13.05px;
+	}
+
+	.how-it-works .texts .review {
+		width: 100%;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 10.8px;
+	}
+
+	.access .texts > p {
+		font-size: 15.9px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 11.9px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 10.15px;
+	}
+}
+
+@media screen and (max-width: 394px) {
+	.intro .texts > h1 {
+		font-size: 18.75px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 11.7px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 11.8px;
+	}
+
+	.access .texts > h2 {
+		font-size: 24px;
+	}
+
+	.access .texts > p {
+		font-size: 15.25px;
+	}
+}
+
+@media screen and (max-width: 386px) {
+	.how-it-works .texts .review > p {
+		font-size: 9.75px;
+	}
+
+	.how-it-works .texts .review .bio {
+		gap: 10px;
+	}
+
+	.review .bio img {
+		width: 35px;
+		height: 35px;
+	}
+
+	.bio .details h3 {
+		font-size: 12px;
+	}
+
+	.bio .details p {
+		font-size: 9.5px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.intro .texts > p {
+		font-size: 11.9px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 11.2px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 9.2px;
+	}
+
+	.access .texts > p {
+		font-size: 14.55px;
+	}
+}
+
+
+@media screen and (max-width: 375px) {
+
+	.header > nav > ul a {
+		font-size: 10.5px;
+	}
+
+	.intro .texts form > input {
+		font-size: 13px;
+	}
+
+	.texts form > button {
+		font-size: 20px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 13px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 10.83px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 11px;
+	}
+
+	.how-it-works .texts .articles > a {
+		font-size: 11px;
+	}
+
+	.access form > input {
+		font-size: 12.5px;
+	}
+
+	.access form > button {
+		font-size: 15px;
+	}
+
+	.footer > img {
+		width: 120px;
+		height: 45px;
+	}
+
+	.socials > div:nth-of-type(1) > span > img {
+		width: 15px;
+	}
+
+	.socials > div:nth-of-type(1) > span {
+		font-size: 15px;
+	}
+
+	.socials > nav > ul a {
+		font-size: 15px;
+	}
+
+	.socials > div:nth-of-type(2) > a {
+		font-size: 13px;
+	}
+
+	.attribution {
+		font-size: 9.5px;
+	}
+}
+
+@media screen and (max-width: 367px) {
+	.access .texts > p {
+		font-size: 14px; 
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 8.7px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.intro .texts > h1 {
+		font-size: 16.25px;
+	}
+
+	.intro .texts > p {
+		font-size: 10.9px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 10.25px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 10.35px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 8.25px;
+	}
+
+	.access .texts > h2 {
+		font-size: 20.9px;
+	}
+
+	.access .texts > p {
+		font-size: 13.5px;
+	}
+}
+
+/* I changed the width from 347px to 348px */
+@media screen and (max-width: 348px) {
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 9.75px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 9.8px;
+	}
+
+	.how-it-works .texts .articles > a {
+		font-size: 10px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 7.7px;
+	}
+
+	.access .texts > p {
+		font-size: 12.85px;
+	}
+}
+
+@media screen and (max-width: 337px) {
+
+
+	.intro .texts > p {
+		font-size: 9.95px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 12.5px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 9.25px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 9.35px;
+	}
+
+	.how-it-works .texts .articles > a > img {
+		width: 12.25px;
+	}
+
+	.how-it-works .texts .review > p {
+		font-size: 7.2px;
+	}
+
+	.review .bio img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.bio .details h3 {
+		font-size: 9px;
+	}
+
+	.bio .details p {
+		font-size: 7.5px;
+	}
+
+	.access .texts > p {
+		font-size: 12.3px;
+	}
+}
+
+@media screen and (max-width: 327px) {
+	.how-it-works .texts .review > p {
+		font-size: 6.7px;
+	}
+}
+
+@media screen and (max-width: 325px) {
+
+	.header > img {
+		width: 50px;
+	}
+
+	.header > nav > ul a {
+		font-size: 9.5px;
+	}
+
+	.intro .texts > h1 {
+		font-size: 14px;
+	}
+
+	.intro .texts > p {
+		font-size: 9.35px;
+	}
+
+	.intro .texts form > input {
+		font-size: 12px;
+	}
+
+	.texts form > button {
+		font-size: 16px;
+	}
+
+	.how-it-works .texts > h2 {
+		font-size: 12px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(1) {
+		font-size: 8.75px;
+	}
+
+	.how-it-works .texts .articles > p:nth-of-type(2) {
+		font-size: 8.85px;
+	}
+
+	.how-it-works .texts .articles > a {
+		font-size: 9.25px;
+	}
+
+	.access .texts > h2 {
+		font-size: 18.5px;
+	}
+
+	.access .texts > p {
+		font-size: 11.7px;
+	}
+
+	.access form > input {
+		font-size: 11px;
+	}
+
+	.access form > button {
+		font-size: 12.5px;
+	}
+
+	.footer > img {
+		width: 100px;
+		height: 40px;
+	}
+
+	.socials > div:nth-of-type(1) > span > img {
+		width: 12px;
+	}
+
+	.socials > div:nth-of-type(1) > span {
+		font-size: 12.5px;
+	}
+
+	.socials > nav > ul a {
+		font-size: 12.5px;
+	}
+
+	.socials > div:nth-of-type(2) > a {
+		font-size: 13px;
+	}
+
+	.attribution {
+		font-size: 8.5px;
+	}
+}
+
+@media screen and (max-width: 317px) {
+	.how-it-works .texts .review > p {
+		font-size: 6.15px;
+	}
+}
+
+@media screen and (max-width: 314px) {
+	.access .texts > p {
+		font-size: 11.1px;
+	}
+}
+
+@media screen and (max-width: 306px) {
+	.intro .texts > p {
+		font-size: 8.5px;
+	}
+
+	.access .texts > p {
+		font-size: 10.7px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.header > img {
+		width: 40px;
+	}
+
+	.header > nav > ul a {
+		font-size: 9px;
+	}
+
+	.intro .texts > h1 {
+		font-size: 12.5px;
+	}
+
+	.bio .details p {
+		font-size: 5.5px;
+	}
+
+	.access .texts > h2 {
+		font-size: 17.5px;
+	}
+
+	.access .texts > p {
+		font-size: 10.37px;
+	}
+}
+
+@media screen and (max-width: 290px) {
+	.intro .texts > p {
+		font-size: 8px;
+	}
+
+	.access .texts > h2 {
+		font-size: 16.5px;
+	}
+
+	.access .texts > p {
+		font-size: 9.85px;
+	}
+}
+
+@media screen and (max-width: 280px) {
+	.access .texts > p {
+		font-size: 9.5px;
+	}
+}
